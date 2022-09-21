@@ -1,18 +1,19 @@
 # List
+<image src="https://slideplayer.com.br/slide/16864713/97/images/7/Listas%3A+java.util.List+Listas%3A+Java.Util.List.jpg"/>
 
-Elementos duplicados e garante ordem de inserção
+Elementos duplicados e garante ordem de inserÃ§Ã£o
 
 ## List e ArrayList
 
-O List é uma interface e o ArrayList é a classe que a implementa. Veja um exemplo na Listagem 1.
+O List Ã© uma interface e o ArrayList Ã© a classe que a implementa. Veja um exemplo na Listagem 1.
 
-## Métodos principais de um ArrayList
+## MÃ©todos principais de um ArrayList
 
-- Método add = Adiciona um elemento no final do ArrayList.
-- Método clear =  Remove todos os elementos da estrutura.
-- Método contains  = Verifica se o ArrayList contém um elemento especificado, e retorna true em caso positivo, ou false caso contrário.
-- Método get =  Retorna o item em uma posição de índice especificada.
-- Método indexOf =  Retorna a posição de índice da primeira ocorrência de um elemento especificado.
-- Método remove =  Remove a primeira ocorrência de um valor especificado ou de um elemento em um índice.
-- Método size =  Informa o número de elementos que estão armazenados na estrutura.
-- Método trimToSize  = Ajusta a capacidade do ArrayList de acordo com o número de elementos armazenados no momento.
+- MÃ©todo add = Adiciona um elemento no final do ArrayList.
+- MÃ©todo clear =  Remove todos os elementos da estrutura.
+- MÃ©todo contains  = Verifica se o ArrayList contÃ©m um elemento especificado, e retorna true em caso positivo, ou false caso contrÃ¡rio.
+- MÃ©todo get =  Retorna o item em uma posiÃ§Ã£o de Ã­ndice especificada.
+- MÃ©todo indexOf =  Retorna a posiÃ§Ã£o de Ã­ndice da primeira ocorrÃªncia de um elemento especificado.
+- MÃ©todo remove =  Remove a primeira ocorrÃªncia de um valor especificado ou de um elemento em um Ã­ndice.
+- MÃ©todo size =  Informa o nÃºmero de elementos que estÃ£o armazenados na estrutura.
+- MÃ©todo trimToSize  = Ajusta a capacidade do ArrayList de acordo com o nÃºmero de elementos armazenados no momento.
