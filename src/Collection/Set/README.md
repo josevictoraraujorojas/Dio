@@ -1,5 +1,6 @@
 # Set
 <img src="https://www.alura.com.br/apostila-java-orientacao-objetos/assets/images/collections/set.png"/>
+
 - Não permite elementos duplicados
 
 - Não possui índice
