@@ -1,46 +1,46 @@
 # Set
+<img src="https://www.alura.com.br/apostila-java-orientacao-objetos/assets/images/collections/set.png"/>
+- N√£o permite elementos duplicados
 
-- N„o permite elementos duplicados
-
-- N„o possui Ìndice
+- N√£o possui √≠ndice
 
 ## Classe HashSet
-Classe que faz parte do pacote ?java.util? e que È uma implementaÁ„o da interface Set onde utiliza uma tabela hash, por isso do nome da classe.
+Classe que faz parte do pacote ?java.util? e que √© uma implementa√ß√£o da interface Set onde utiliza uma tabela hash, por isso do nome da classe.
 
-#### CaracterÌsticas do HashSet
-- N„o tem ordenaÁ„o na varredura ou impress„o. A ordem de saÌda n„o È a mesma de entrada;
+#### Caracter√≠sticas do HashSet
+- N√£o tem ordena√ß√£o na varredura ou impress√£o. A ordem de sa√≠da n√£o √© a mesma de entrada;
 - Aceitam valores do tipo null;
-- N„o È sincronizada (thread-safe);
-- Velocidade no acesso, leitura e modificaÁ„o de dados;
+- N√£o √© sincronizada (thread-safe);
+- Velocidade no acesso, leitura e modifica√ß√£o de dados;
 
-#### DeclaraÁ„o - HashSet
+#### Declara√ß√£o - HashSet
 
-Na classe HashSet para construir objetos È a mesma ideia da interface Set, precisa informar que tipo de coleÁ„o ser· implementada.
+Na classe HashSet para construir objetos √© a mesma ideia da interface Set, precisa informar que tipo de cole√ß√£o ser√° implementada.
 
 Sintaxe: `HashSet<E> set = new Type<E>();`
 
 ## Classe TreeSet
-Essa classe fornece objetos de coleÁ„o de ordenaÁ„o natural e faz parte da implementaÁ„o da interface Set e est· localizada dentro do pacote ?java.util?.
+Essa classe fornece objetos de cole√ß√£o de ordena√ß√£o natural e faz parte da implementa√ß√£o da interface Set e est√° localizada dentro do pacote ?java.util?.
 
-#### CaracterÌsticas
+#### Caracter√≠sticas
 - Os elementos inseridos dentro desse tipo de conjunto devem implementar a interface Comparable;
-- A ordenaÁ„o È por elementos ˙nicos;
-- N„o suporta objetos nulos, se caso um elemento ser nulo È lanÁado a exceÁ„o NullPointerException;
+- A ordena√ß√£o √© por elementos √∫nicos;
+- N√£o suporta objetos nulos, se caso um elemento ser nulo √© lan√ßado a exce√ß√£o NullPointerException;
 
-#### DeclaraÁ„o - TreeSet
-Nessa classe para construir objetos È a mesma ideia da interface Set, precisa informar que tipo de coleÁ„o ser· implementada.
+#### Declara√ß√£o - TreeSet
+Nessa classe para construir objetos √© a mesma ideia da interface Set, precisa informar que tipo de cole√ß√£o ser√° implementada.
 
 Sintaxe: `Set<E> set = new TreeSet<E>();`
 
 ## LinkedHashSet
 
-O LinkedHashSet È uma vers„o ordenada do HashSet que mantÈm uma lista duplamente vinculada em todos os elementos. 
-Quando a ordem de iteraÁ„o precisa ser mantida, essa classe È usada. 
-Ao iterar por meio de um HashSet, a ordem È imprevisÌvel, 
-enquanto um LinkedHashSet nos permite iterar atravÈs dos elementos na ordem em que foram inseridos. 
-Ao percorrer LinkedHashSet usando um iterador, os elementos ser„o retornados na ordem em que foram inseridos.
+O LinkedHashSet √© uma vers√£o ordenada do HashSet que mant√©m uma lista duplamente vinculada em todos os elementos. 
+Quando a ordem de itera√ß√£o precisa ser mantida, essa classe √© usada. 
+Ao iterar por meio de um HashSet, a ordem √© imprevis√≠vel, 
+enquanto um LinkedHashSet nos permite iterar atrav√©s dos elementos na ordem em que foram inseridos. 
+Ao percorrer LinkedHashSet usando um iterador, os elementos ser√£o retornados na ordem em que foram inseridos.
 
 #### LinkedHashSet(): 
-construtor È usado para criar um HashSet padr„o:
+construtor √© usado para criar um HashSet padr√£o:
  
 `LinkedHashSet <E> hs = novo LinkedHashSet <E>();`
