@@ -1,25 +1,26 @@
 # Collection
+<img src="https://digaotutoriais.files.wordpress.com/2016/04/sem-tc3adtulo.jpg?w=596&h=278"/>
 
-Collection é um objeto que agrupa múltiplos elementos
-(variáveis primitivas ou objetos) dentro de uma única unidade.
+Collection Ã© um objeto que agrupa mÃºltiplos elementos
+(variÃ¡veis primitivas ou objetos) dentro de uma Ãºnica unidade.
 
 Serve para armazenar e processar conjuntos de dados de
 forma eficiente.
 
-Antes do Java 2 (JDK 1.2), a implementação de coleções na
-linguagem Java incluía poucas classes e não tinha a
-organização de um framework.
+Antes do Java 2 (JDK 1.2), a implementaÃ§Ã£o de coleÃ§Ãµes na
+linguagem Java incluÃ­a poucas classes e nÃ£o tinha a
+organizaÃ§Ã£o de um framework.
 
-## Composição Collections
+## ComposiÃ§Ã£o Collections
 
-Interfaces: É um contrato que quando assumido por uma
+Interfaces: Ã‰ um contrato que quando assumido por uma
 classe deve ser implementado.
 
-Implementações ou Classes: são as materializações, a
-codificação das interfaces.
+ImplementaÃ§Ãµes ou Classes: sÃ£o as materializaÃ§Ãµes, a
+codificaÃ§Ã£o das interfaces.
 
-Algoritmos: É uma sequência lógica, finita e definida de
-instruções que devem ser seguidas para resolver um problema.
+Algoritmos: Ã‰ uma sequÃªncia lÃ³gica, finita e definida de
+instruÃ§Ãµes que devem ser seguidas para resolver um problema.
 
 
 ### Interfaces
