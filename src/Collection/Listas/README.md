@@ -1,5 +1,5 @@
 # List
-<image src="https://slideplayer.com.br/slide/16864713/97/images/7/Listas%3A+java.util.List+Listas%3A+Java.Util.List.jpg"/>
+<image src="https://www.alura.com.br/apostila-java-orientacao-objetos/assets/images/collections/list.png"/>
 
 Elementos duplicados e garante ordem de inserção
 
