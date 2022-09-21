@@ -30,6 +30,8 @@ instruções que devem ser seguidas para resolver um problema.
 - Queue
 - Deque
 - SortedSet
+- Map
+- SortedMap
 
 ### Classes
 
