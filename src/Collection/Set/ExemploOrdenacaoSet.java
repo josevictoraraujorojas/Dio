@@ -42,7 +42,7 @@ public class ExemploOrdenacaoSet {
         System.out.println();
 
         System.out.println("ordem de nome/gênero/tempo: ");
-        Set<Serie> series4 = new TreeSet<>(new ComparatoNomeGeneroTempo());
+        Set<Serie> series4 = new TreeSet<>(new ComparatorNomeGeneroTempo());
         series4.addAll(series);
         for (Serie serie:series4) {
             System.out.println(serie.getNome()+" - "+serie.getGenero()+" - "+serie.getTempo());
@@ -50,7 +50,7 @@ public class ExemploOrdenacaoSet {
         System.out.println();
 
         System.out.println("ordem gênero:");
-        Set<Serie> series5 = new TreeSet<>(new ComparatoGenero());
+        Set<Serie> series5 = new TreeSet<>(new ComparatorGenero());
         series5.addAll(series);
         for (Serie serie:series5) {
             System.out.println(serie.getNome()+" - "+serie.getGenero()+" - "+serie.getTempo());
@@ -58,7 +58,7 @@ public class ExemploOrdenacaoSet {
         System.out.println();
 
         System.out.println("ordem tempo de episodio:");
-        Set<Serie> series6 = new TreeSet<>(new ComparatoTempo());
+        Set<Serie> series6 = new TreeSet<>(new ComparatorTempo());
         series6.addAll(series);
         for (Serie serie:series6) {
             System.out.println(serie.getNome()+" - "+serie.getGenero()+" - "+serie.getTempo());
@@ -120,7 +120,7 @@ public class ExemploOrdenacaoSet {
 
 
       }
-    static class ComparatoNomeGeneroTempo implements Comparator<Serie> {
+    static class ComparatorNomeGeneroTempo implements Comparator<Serie> {
 
         @Override
         public int compare(Serie s1, Serie s2) {
@@ -134,14 +134,14 @@ public class ExemploOrdenacaoSet {
 
         }
     }
-    static class ComparatoGenero implements Comparator<Serie>{
+    static class ComparatorGenero implements Comparator<Serie>{
 
         @Override
         public int compare(Serie s1, Serie s2) {
             return s1.getGenero().compareTo(s2.getGenero());
         }
     }
-    static class ComparatoTempo implements Comparator<Serie>{
+    static class ComparatorTempo implements Comparator<Serie>{
 
         @Override
         public int compare(Serie s1, Serie s2) {
